@@ -1,10 +1,35 @@
-# Chefinately
-<p> Chefinately provides independent chefs a service to connect with customers who are looking for home-cooked meals. As well as providing chefs with a platform to cater to any number of individuals. 
-A chef can decide whether they’re making a specialty dinner of the day or spending time catering for an event. Customers will be able to specify their need for a specific cuisine and request a specific chef.</P>
+# Avant Coding Challenge
+<p> Working credit card web app. Both given test scenarios work. Minor bugs and UI issues. Mongo was chosen arbitrarily. All cards have .35 APR. Credit limit is symbolic in this version. With more time I could've added a proper "creditLimit" funtion. Dashboard will display information for all cards selected. Their respective 'Transaction Buttons' will only affect that individual card. Balance will not add interest until "days opened" > 29.</p>
 
-<h3>Deployment<h3>
+<h3>Scenario One<h3>
+  <ul>
+    <li>Begin with the 'New Card' page and enter information and Submit.</li>
+    <li>Navigate to 'Dashboard' page and click on 'Transaction' button.</li>
+    <li>Once redirected to 'Transaction Page' select 'Charge' for type, '0' for days since, and enter 500 for amount. </li>
+    <li>Click Submit. Return to Dashboard.</li>
+    <li>Information should be updated. Click 'Transaction' again.</li>
+    <li>Once redirected to 'Transaction Page' select 'Neither' for type, '30' for days since, and enter 0 for amount.</li>
+    <li>Click Submit. Return to Dashboard.</li>
+    <li>Information should be updated with correct Balance Due</li>
+  </ul>
 
-
+<h3>Scenario Two<h3>
+  <ul>
+    <li>Begin with the 'New Card' page and enter information and Submit.</li>
+    <li>Navigate to 'Dashboard' page and click on 'Transaction' button.</li>
+    <li>Once redirected to 'Transaction Page' select 'Charge' for type, '0' for days since, and enter 500 for amount. </li>
+    <li>Click Submit. Return to Dashboard.</li>
+    <li>Information should be updated. Click 'Transaction' again.</li>
+    <li>Once redirected to 'Transaction Page' select 'Payment' for type, '15' for days since, and enter 200 for amount.</li>
+    <li>Click Submit. Return to Dashboard.</li>
+    <li>Information should be updated. Click 'Transaction' again.</li>
+    <li>Once redirected to 'Transaction Page' select 'Charge' for type, '10' for days since, and enter 100 for amount.</li>
+    <li>Click Submit. Return to Dashboard.</li>
+     <li>Information should be updated. Click 'Transaction' again.</li>
+    <li>Once redirected to 'Transaction Page' select 'Neither' for type, '5' for days since, and enter 0 for amount.</li>
+    <li>Click Submit. Return to Dashboard.</li>
+    <li>Information should be updated with correct Balance Due</li>
+  </ul>
 
 <h2>Built With: </h2>
 <ul>
@@ -14,11 +39,8 @@ A chef can decide whether they’re making a specialty dinner of the day or spen
 <li>Express</li>
 </ul>
 
-<h3>Contributors</h3>
+<h3>Armando Martinez</h3>
 <ul>
-<li>Ursusg</li>
-<li>Mandoh</li>
-<li>Phenophons</li>
-<li>Rodriguez32</li>
+<li>12-21-18</li>
 </ul>
 
