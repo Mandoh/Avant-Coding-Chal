@@ -1,7 +1,10 @@
 # Avant Coding Challenge
 <p> Working credit card web app. Both given test scenarios work. Minor bugs and UI issues. Mongo was chosen arbitrarily. All cards have .35 APR. Credit limit is symbolic in this version. With more time I could've added a proper "creditLimit" funtion. Dashboard will display information for all cards selected. Their respective 'Transaction Buttons' will only affect that individual card. Balance will not add interest until "days opened" > 29. I attempted to deploy with Heroku. The new card and mLab add-on were working correctly but it seems that the routing wasn't. Project works on local machine.</p>
 
-The script handling the transactions is in client>src>pages>transaction>transaction.js
+The script handling the transactions is in client > src > pages > transaction > transaction.js
+
+To run on local machine must install mongoDB. Then run 'mongod' in terminal. In separate terminal 'yarn install' then 'yarn start'.
+Will be on localhost 3001.
 
 <h3>Scenario One<h3>
   <ul>
@@ -37,7 +40,7 @@ The script handling the transactions is in client>src>pages>transaction>transact
 <ul>
 <li>React</li>
 <li>React Materialize</li>
-<li>Mongo</li>
+<li>MongoDB</li>
 <li>Express</li>
 </ul>
 
