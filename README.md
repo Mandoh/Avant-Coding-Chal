@@ -1,5 +1,5 @@
 # Avant Coding Challenge
-<p> Working credit card web app. Both given test scenarios work. Minor bugs and UI issues. Mongo was chosen arbitrarily. All cards have .35 APR. Credit limit is symbolic in this version. With more time I could've added a proper "creditLimit" funtion. Dashboard will display information for all cards selected. Their respective 'Transaction Buttons' will only affect that individual card. Balance will not add interest until "days opened" > 29.</p>
+<p> Working credit card web app. Both given test scenarios work. Minor bugs and UI issues. Mongo was chosen arbitrarily. All cards have .35 APR. Credit limit is symbolic in this version. With more time I could've added a proper "creditLimit" funtion. Dashboard will display information for all cards selected. Their respective 'Transaction Buttons' will only affect that individual card. Balance will not add interest until "days opened" > 29. I attempted to deploy with Heroku. The new card and mLab add-on were working correctly but it seems that the routing wasn't. Project works on local machine.</p>
 
 <h3>Scenario One<h3>
   <ul>
