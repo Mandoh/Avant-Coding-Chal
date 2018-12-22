@@ -1,0 +1,28 @@
+.chefwood {
+  width: 400px;
+  height: 400px;
+}
+
+.rowood {
+  float: left;
+}
+
+.aside{
+    background-color: #49a041
+}
+
+.signups{
+    background-color: grey;
+    border: solid #49a041 3px;
+}
+.btn, .btn-large{
+background-color: #49a041;
+color: beige 
+
+}
+a{
+  color:inherit
+}
+.btn:hover, .btn-large:hover {
+  background-color: #6dc266
+}

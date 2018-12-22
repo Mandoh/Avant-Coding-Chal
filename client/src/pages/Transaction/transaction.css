@@ -1,0 +1,35 @@
+.signups {
+  border: solid #6d4c41 3px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 5%;
+
+}
+
+.addbtn {
+  margin: 30px;
+}
+
+/* label color */
+.input-field label {
+  color: orange;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.chefwood {
+  
+  width: 100px;
+  height: 100px;
+}
+
+
+  /* .btn, .btn-large {
+      background-color: orange;
+  }
+
+  .btn:hover, .btn-large:hover {
+      background-color: #ffb74d ;
+  }
+   */
+
